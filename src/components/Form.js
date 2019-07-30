@@ -9,11 +9,11 @@ import "./Form.css";
 const validations = yup.object().shape({
   user: yup
     .string()
-    .email()
+    .email("Email invalido")
     .required(),
   password: yup
     .string()
-    .min(8)
+    .min(6)
     .required()
 });
 
