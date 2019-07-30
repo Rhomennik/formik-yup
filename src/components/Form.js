@@ -29,14 +29,14 @@ const Form = ({ initialValues, handleSubmit }) => (
           className="Form-Field"
           name="user"
           placeholder="User"
-          type="name"
+          type="text"
         />
         <ErrorMessage className="Form-Error" component="span" name="user" />
         <Field
           className="Form-Field"
           name="password"
           placeholder="Password"
-          type="Password"
+          type="password"
         />
       </div>
 
